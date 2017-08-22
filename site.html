@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+	<script type="text/javascript" src="js/jquery-3.2.1.slim.js"></script>
+	<script type="text/javascript" src="js/passcheck.js"></script>
+	<script $("#password_input").keyup(value_check);</script>
 	<title>Better Passwords</title>
 </head>
 
@@ -9,7 +12,7 @@
      <h1>Password testing and comparing</h1>
      <div class="block">
         <input id="password_input"/>
-        <div>Enter a password to test</div>
+        <div id="result" class="default">Enter a password to test</div>
     </div>
   </div>
 </body>
